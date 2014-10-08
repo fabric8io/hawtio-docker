@@ -2,7 +2,9 @@
 
 This project builds a [docker](http://docker.io/) image for running the [hawtio web console](http://hawt.io/) which is used by the [fabric8](http://fabric8.io/) project to provide a universal console to [Kubernetes](http://kubernetes.io) and [OpenShift](http://openshift.github.io/).
 
-### Try it out
+Exposes port: **8080**
+
+### to run it:
 
     docker run -p 9282:8080 -it fabric8/hawtio
 
@@ -12,12 +14,12 @@ If you are running [Kubernetes](http://kubernetes.io) or [OpenShift](http://open
 
 Then access it on your docker host at 9282.
 
-* linux: if you have native docker then tryt http://localhost:9282
-* non-linux: it will be on the docker host such as http://dockerhost:9282  where _dockerhost_ should point to the ip address returned by
+* linux: if you have native docker then try: http://localhost:9282
+* non-linux: it will be on the docker host such as: http://dockerhost:9282  where _dockerhost_ should point to the ip address returned by
 
     boot2docker ip
 
-If you are not on linux tThis article](http://viget.com/extend/how-to-use-docker-on-os-x-the-missing-guide) describes how its a good idea to define **dockerhost** to point to your boot2docker ip address via:
+If you are not on linux [this article](http://viget.com/extend/how-to-use-docker-on-os-x-the-missing-guide) describes how its a good idea to define **dockerhost** to point to your boot2docker ip address via:
 
     echo $(docker-ip) dockerhost | sudo tee -a /etc/hosts
 
