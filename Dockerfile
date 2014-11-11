@@ -2,7 +2,7 @@ FROM fabric8/tomcat-8.0
 
 MAINTAINER fabric8@googlegroups.com
 
-ENV FABRIC8_VERSION 2.0.0
+ENV FABRIC8_VERSION 2.0.1
 ENV JOLOKIA_DISABLE true
 
 # configuring what initial repository to configure on startup
