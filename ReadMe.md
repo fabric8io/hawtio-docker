@@ -14,7 +14,7 @@ docker run -p 9282:8080 -it fabric8/hawtio
 If you are running [Kubernetes](http://kubernetes.io) or [OpenShift](http://openshift.github.io/) then try this: (where KUBERNETES_MASTER should point to your master REST API such as <code>http://localhost:8080</code>)
 
 ```
-docker run -p 9282:8080 -it -e KUBERNETES_MASTER=$KUBERNETES_MASTER -e DOCKER_HOST=$DOCKER_HOST fabric8/hawtio
+docker run -p 9282:8080 -it -e KUBERNETES_MASTER=$KUBERNETES_MASTER fabric8/hawtio
 ```
 
 Then access it on your docker host at 9282.
