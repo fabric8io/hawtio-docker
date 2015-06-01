@@ -1,3 +1,9 @@
+== NOTE this image is now replaced by fabric8/fabric8-console!
+
+This docker image is old and is now replaced by the [fabric8/fabric8-console](https://registry.hub.docker.com/u/fabric8/fabric8-console/) docker image on github at [fabric8io/fabric8-console](https://github.com/fabric8io/fabric8-console).
+
+For nore detail see the [fabric8 console documentation](http://fabric8.io/guide/console.html).
+
 fabric8 hawtio docker image
 ---------------------------
 
